@@ -73,7 +73,7 @@ This file contains your layout with the hacking GIF restored, a colored Jackal c
 ### 🏙️ My 3D Contribution City
 <p align="center">
   <!-- Displays the 3D grid skyline generated from your GitHub Actions workflow -->
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="Ashish's 3D City" width="100%" />
+  <img src="./profile-3d-contrib/profile-night-view.svg?v=3" alt="Ashish's 3D City" width="100%" />
 </p>
 
 ---
@@ -85,16 +85,16 @@ This file contains your layout with the hacking GIF restored, a colored Jackal c
     use this link to display the dark mode snake:
     https://raw.githubusercontent.com/Sirjon-LahanTi/Sirjon-LahanTi/output/github-contribution-grid-snake-dark.svg
   -->
-  <img src="./dist/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%" />
+  <img src="./dist/github-contribution-grid-snake.svg?v=3" alt="GitHub Contribution Snake" width="100%" />
 </p>
 
 ---
 
 ### 📊 Mission Telemetry (GitHub Stats)
 <p align="center">
-  <img src="./dist/github-stats.svg" alt="GitHub Stats" width="70%" />
+  <img src="./dist/github-stats.svg?v=3" alt="GitHub Stats" width="70%" />
 </p>
 
 <p align="center">
-  <img src="./dist/github-langs.svg" alt="Top Languages" width="380" />
+  <img src="./dist/github-langs.svg?v=3" alt="Top Languages" width="380" />
 </p>

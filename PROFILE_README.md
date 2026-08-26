@@ -85,11 +85,11 @@ $ neofetch --pilot Sirjon-LahanTi
 ### 📊 Mission Telemetry (GitHub Stats)
 
 <p align="center">
-  <img src="./dist/github-stats.svg" alt="GitHub Stats" width="70%" />
+  <img src="./dist/github-stats.svg?v=3" alt="GitHub Stats" width="70%" />
 </p>
 
 <p align="center">
-  <img src="./dist/github-langs.svg" alt="Top Languages" width="380" />
+  <img src="./dist/github-langs.svg?v=3" alt="Top Languages" width="380" />
 </p>
 
 ---
@@ -98,7 +98,7 @@ $ neofetch --pilot Sirjon-LahanTi
 Here is my contribution graph animated as a spaceship retro game! It updates automatically every 24 hours.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sirjon-LahanTi/Sirjon-LahanTi/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" style="max-width: 100%;" />
+  <img src="https://raw.githubusercontent.com/Sirjon-LahanTi/Sirjon-LahanTi/output/github-contribution-grid-snake-dark.svg?v=3" alt="GitHub Contribution Snake" style="max-width: 100%;" />
 </p>
 
 ---
