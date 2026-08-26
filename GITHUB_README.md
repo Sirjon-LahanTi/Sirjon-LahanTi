@@ -98,6 +98,3 @@ This file contains your layout with the hacking GIF restored, a colored Jackal c
 <p align="center">
   <img src="./dist/github-langs.svg" alt="Top Languages" width="380" />
 </p>
-
-
-
