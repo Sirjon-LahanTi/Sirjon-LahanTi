@@ -1,12 +1,7 @@
 name: Generate Profile Assets
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # Har roz raat ko chalega
   workflow_dispatch: # Manually chalane ke liye
-  push:
-    branches:
-      - main
 
 jobs:
   build:
