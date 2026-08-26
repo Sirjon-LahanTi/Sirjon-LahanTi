@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: "0 0 * * *" # Har roz raat ko chalega
   workflow_dispatch: # Manually chalane ke liye
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -16,12 +19,12 @@ jobs:
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          USERNAME: InterstellerAsh
+          USERNAME: ${{ github.repository_owner }}
 
       # 2. Snake Game Generator
       - uses: Platane/snk/svg-only@v3
         with:
-          github_user_name: InterstellerAsh
+          github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
