@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 44" width="100%" max-width="520" height="44">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 54" width="100%" max-width="520" height="54">
   <defs>
     <linearGradient id="qWaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#00ffcc" stop-opacity="0.9" />
@@ -47,7 +47,7 @@
   </defs>
 
   <!-- Left: 3D Precessing Quantum Atom -->
-  <g id="atom-core">
+  <g id="atom-core" transform="translate(0, 5)">
     <!-- Orbit 1: Cyan -->
     <g class="orbit1">
       <ellipse cx="32" cy="22" rx="24" ry="8" fill="none" stroke="#00ffcc" stroke-width="1.6" opacity="0.8" filter="url(#qGlow)" />
@@ -79,7 +79,7 @@
   </g>
 
   <!-- Center-Right: Quantum Probability Wave Packet -->
-  <g transform="translate(70, 0)">
+  <g transform="translate(70, 5)">
     <!-- Subtitle badge tag -->
     <rect x="0" y="6" width="370" height="32" rx="8" fill="#0d1117" stroke="url(#qWaveGrad)" stroke-width="1" fill-opacity="0.8" />
     
@@ -103,7 +103,7 @@
   </g>
 
   <!-- Right: Quantum Entangled Photon Node -->
-  <g class="photon" transform="translate(465, 22)">
+  <g class="photon" transform="translate(465, 27)">
     <circle cx="0" cy="0" r="9" fill="#ff0055" opacity="0.2" />
     <circle cx="0" cy="0" r="5" fill="#ff0055" filter="url(#qGlow)" />
     <circle cx="0" cy="0" r="2.2" fill="#ffffff" />
