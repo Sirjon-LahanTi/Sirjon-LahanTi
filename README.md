@@ -4,7 +4,7 @@ This file contains your layout with the hacking GIF restored, a colored Jackal c
 -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Sirjon-LahanTi/Sirjon-LahanTi/main/ChatGPT%20Image%20May%2026%2C%202026%2C%2006_08_00%20PM.png" alt="Cosmic Logo" width="600" style="border-radius: 10px; border: 1px solid rgba(0, 255, 204, 0.3);" onerror="this.src='https://images.unsplash.com/photo-1462331940025-496dfbfc7564?auto=format&fit=crop&w=800&q=80'"/>
+  <img src="./assets/cosmic-quantum-banner.svg" alt="Ashish Murmu | Quantum Mechanics & Cosmic Explorer" width="100%" style="border-radius: 12px; border: 1px solid rgba(0, 255, 204, 0.3); max-width: 1000px;" onerror="this.src='https://raw.githubusercontent.com/Sirjon-LahanTi/Sirjon-LahanTi/main/assets/cosmic-quantum-banner.svg'"/>
 </p>
 
 <!-- Restored Hacking GIF aligned to the right -->
@@ -31,9 +31,9 @@ This file contains your layout with the hacking GIF restored, a colored Jackal c
 </p>
 
 <p align="left">
-  ⚛️ <b>Passionate about Quantum Mechanics & Quantum Computing</b><br>
+  ⚛️ <b>Passionate about Quantum Mechanics & Cosmic Physics</b><br>
   <sub><i>"If quantum mechanics hasn't profoundly shocked you, you haven't understood it yet." — Niels Bohr</i></sub><br>
-  🔬 Exploring superposition <code>|ψ⟩ = α|0⟩ + β|1⟩</code>, quantum entanglement, and post-quantum cryptographic security.
+  🔬 Exploring superposition <code>|ψ⟩ = α|0⟩ + β|1⟩</code>, quantum entanglement, wave-particle duality, and theoretical cosmos mechanics.
 </p>
 
 <br clear="right" />
