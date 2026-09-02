@@ -1,6 +1,8 @@
 name: Generate Profile Assets
 
 on:
+  schedule:
+    - cron: "0 0 * * *" # Runs automatically every 24 hours at midnight UTC
   workflow_dispatch: # Manually chalane ke liye
 
 jobs:
@@ -24,11 +26,40 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      # 3. Commit & Push Changes
+      # 3. Update Mission Telemetry (GitHub Stats) to match live contributions
+      - name: Update GitHub Stats Card
+        run: |
+          python -c "
+          import urllib.request, re, os
+          user = '${{ github.repository_owner }}'
+          url = f'https://github.com/users/{user}/contributions'
+          req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+          try:
+              html = urllib.request.urlopen(req).read().decode('utf-8')
+              m = re.search(r'([\d,]+)\s+contributions?\s+in\s+the\s+last\s+year', html)
+              if m:
+                  raw_num = m.group(1).replace('\n', '').strip()
+                  num_val = int(raw_num.replace(',', ''))
+                  formatted_num = f'{num_val:,}'
+                  stats_file = 'dist/github-stats.svg'
+                  if os.path.exists(stats_file):
+                      with open(stats_file, 'r', encoding='utf-8') as f:
+                          content = f.read()
+                      content = re.sub(r'Total Commits\s*\(last year\)\s*:\s*[\d,]+', f'Total Commits  (last year) : {raw_num.replace(\",\", \"\")}', content)
+                      content = re.sub(r'data-testid=\"commits\">[\d,]+<', f'data-testid=\"commits\">{formatted_num}<', content)
+                      with open(stats_file, 'w', encoding='utf-8') as f:
+                          f.write(content)
+                      print(f'Successfully updated stats card to {formatted_num}')
+          except Exception as e:
+              print(f'Warning: Could not update stats card: {e}')
+          "
+
+      # 4. Commit & Push Changes
       - name: Commit & Push Changes
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add -A .
-          git commit -m "Generated 3D City and Snake Animation" || exit 0
+          git commit -m "Auto-update 3D City, Snake, and Stats telemetry" || exit 0
           git push
+
