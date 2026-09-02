@@ -10,10 +10,10 @@ This file contains your layout with the hacking GIF restored, a colored Jackal c
 <!-- Restored Hacking GIF aligned to the right -->
 <img align="right" alt="Coding" width="300" src="https://media.tenor.com/rePDfDWO3XoAAAAd/hacking.gif" style="border-radius: 8px; border: 1px solid rgba(0, 255, 204, 0.2); margin-left: 15px; margin-bottom: 15px;" />
 
-<h1 align="left">Hi 👋, I'm Ashish Murmu</h1>
-<h3 align="left">
+<h3 align="left">Hi 👋, I'm Ashish Murmu</h3>
+<p align="left">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00FFCC&background=00000000&width=550&lines=A+passionate+frontend+developer+from+India;Initializing+Interstellar+Link...;Welcome+to+my+Tech+Cosmos!;Mastering+Web+Development+%F0%9F%9A%80" alt="Typing SVG" />
-</h3>
+</p>
 
 <p align="left">
   <img src="https://komarev.com/ghpvc/?username=Sirjon-LahanTi&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views badge" />
