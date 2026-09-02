@@ -12,6 +12,9 @@ This file contains your layout with the hacking GIF restored, a colored Jackal c
 
 <h3 align="left">Hi 👋, I'm Ashish Murmu</h3>
 <p align="left">
+  <img src="https://raw.githubusercontent.com/Sirjon-LahanTi/Sirjon-LahanTi/main/assets/quantum-orbit.svg" alt="Quantum Dynamics" width="480" />
+</p>
+<p align="left">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=00FFCC&background=00000000&width=550&lines=A+passionate+frontend+developer+from+India;Initializing+Interstellar+Link...;Welcome+to+my+Tech+Cosmos!;Mastering+Web+Development+%F0%9F%9A%80" alt="Typing SVG" />
 </p>
 

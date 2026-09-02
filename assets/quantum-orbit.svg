@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 44" width="100%" max-width="520" height="44">
+  <defs>
+    <linearGradient id="qWaveGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ffcc" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#ff0055" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#8b5cf6" stop-opacity="0.9" />
+    </linearGradient>
+    <filter id="qGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <style>
+      @keyframes spinOrbit1 {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      @keyframes spinOrbit2 {
+        from { transform: rotate(60deg); }
+        to { transform: rotate(420deg); }
+      }
+      @keyframes spinOrbit3 {
+        from { transform: rotate(120deg); }
+        to { transform: rotate(480deg); }
+      }
+      @keyframes pulseCore {
+        0%, 100% { r: 4px; opacity: 0.8; }
+        50% { r: 6.5px; opacity: 1; }
+      }
+      @keyframes waveFlow {
+        from { stroke-dashoffset: 0; }
+        to { stroke-dashoffset: -120; }
+      }
+      @keyframes photonPulse {
+        0%, 100% { transform: scale(1); opacity: 0.7; }
+        50% { transform: scale(1.4); opacity: 1; }
+      }
+      .orbit1 { animation: spinOrbit1 4s linear infinite; transform-origin: 32px 22px; }
+      .orbit2 { animation: spinOrbit2 5s linear infinite reverse; transform-origin: 32px 22px; }
+      .orbit3 { animation: spinOrbit3 6s linear infinite; transform-origin: 32px 22px; }
+      .core-pulse { animation: pulseCore 2s ease-in-out infinite; transform-origin: 32px 22px; }
+      .wave-anim { stroke-dasharray: 8 6; animation: waveFlow 3s linear infinite; }
+      .photon { animation: photonPulse 1.8s ease-in-out infinite; transform-origin: center; }
+    </style>
+  </defs>
+
+  <!-- Left: 3D Precessing Quantum Atom -->
+  <g id="atom-core">
+    <!-- Orbit 1: Cyan -->
+    <g class="orbit1">
+      <ellipse cx="32" cy="22" rx="24" ry="8" fill="none" stroke="#00ffcc" stroke-width="1.6" opacity="0.8" filter="url(#qGlow)" />
+      <circle cx="56" cy="22" r="2.8" fill="#ffffff" filter="url(#qGlow)">
+        <animate attributeName="fill" values="#00ffcc;#ffffff;#00ffcc" dur="2s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Orbit 2: Magenta -->
+    <g class="orbit2">
+      <ellipse cx="32" cy="22" rx="24" ry="8" fill="none" stroke="#ff0055" stroke-width="1.6" opacity="0.8" filter="url(#qGlow)" />
+      <circle cx="8" cy="22" r="2.8" fill="#ffffff" filter="url(#qGlow)">
+        <animate attributeName="fill" values="#ff0055;#ffffff;#ff0055" dur="2.5s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Orbit 3: Electric Violet -->
+    <g class="orbit3">
+      <ellipse cx="32" cy="22" rx="24" ry="8" fill="none" stroke="#8b5cf6" stroke-width="1.6" opacity="0.8" filter="url(#qGlow)" />
+      <circle cx="32" cy="14" r="2.8" fill="#ffffff" filter="url(#qGlow)">
+        <animate attributeName="fill" values="#8b5cf6;#ffffff;#8b5cf6" dur="3s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <!-- Pulsing Atomic Nucleus -->
+    <circle cx="32" cy="22" r="7" fill="#00ffcc" opacity="0.25" />
+    <circle class="core-pulse" cx="32" cy="22" r="4.5" fill="#00ffcc" filter="url(#qGlow)" />
+    <circle cx="32" cy="22" r="2" fill="#ffffff" />
+  </g>
+
+  <!-- Center-Right: Quantum Probability Wave Packet -->
+  <g transform="translate(70, 0)">
+    <!-- Subtitle badge tag -->
+    <rect x="0" y="6" width="370" height="32" rx="8" fill="#0d1117" stroke="url(#qWaveGrad)" stroke-width="1" fill-opacity="0.8" />
+    
+    <!-- Quantum Label -->
+    <text x="14" y="24" fill="#00ffcc" font-family="'Fira Code', 'Courier New', monospace" font-size="11" font-weight="700" letter-spacing="1">
+      ⚛ QUANTUM STATE
+    </text>
+    
+    <!-- State Ket Notation -->
+    <text x="140" y="24" fill="#ffffff" font-family="'Fira Code', 'Courier New', monospace" font-size="11" opacity="0.85">
+      |ψ⟩ = α|0⟩ + β|1⟩
+    </text>
+    
+    <!-- Entangled Spin Status -->
+    <text x="285" y="24" fill="#ff0055" font-family="'Fira Code', 'Courier New', monospace" font-size="10" font-weight="600" opacity="0.9">
+      ⟨ENTANGLED⟩
+    </text>
+    
+    <!-- Traveling Quantum Wave Beam Underneath -->
+    <path class="wave-anim" d="M 12,32 Q 50,26 90,32 T 170,32 T 250,32 T 330,32 T 360,32" fill="none" stroke="url(#qWaveGrad)" stroke-width="2" opacity="0.9" />
+  </g>
+
+  <!-- Right: Quantum Entangled Photon Node -->
+  <g class="photon" transform="translate(465, 22)">
+    <circle cx="0" cy="0" r="9" fill="#ff0055" opacity="0.2" />
+    <circle cx="0" cy="0" r="5" fill="#ff0055" filter="url(#qGlow)" />
+    <circle cx="0" cy="0" r="2.2" fill="#ffffff" />
+    <!-- Rotating small orbit -->
+    <g class="orbit1">
+      <ellipse cx="0" cy="0" rx="14" ry="5" fill="none" stroke="#00ffcc" stroke-width="1" opacity="0.7" />
+    </g>
+  </g>
+</svg>
