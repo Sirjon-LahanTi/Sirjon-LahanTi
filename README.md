@@ -24,7 +24,17 @@ This file contains your layout with the hacking GIF restored, a colored Jackal c
   <a href="https://www.topcoder.com/members/825323" target="blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/topcoder.svg" alt="TopCoder" height="30" width="40" /></a>
 </p>
 
+<p align="left">
+  ⚛️ <b>Passionate about Quantum Mechanics & Quantum Computing</b><br>
+  <sub><i>"If quantum mechanics hasn't profoundly shocked you, you haven't understood it yet." — Niels Bohr</i></sub><br>
+  🔬 Exploring superposition <code>|ψ⟩ = α|0⟩ + β|1⟩</code>, quantum entanglement, and post-quantum cryptographic security.
+</p>
+
 <br clear="right" />
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sirjon-LahanTi/Sirjon-LahanTi/main/assets/quantum-mechanics.png" alt="Quantum Mechanics - Cosmic Quantum Core" width="100%" style="border-radius: 10px; border: 1px solid rgba(0, 255, 204, 0.3); max-width: 750px;" />
+</p>
 
 ---
 
@@ -53,7 +63,7 @@ This file contains your layout with the hacking GIF restored, a colored Jackal c
       <font color="#00ffcc"><b>Uptime:</b></font> <font color="#ffffff">Coding the Cosmos 🚀</font><br>
       <font color="#00ffcc"><b>Contact:</b></font> <font color="#ffffff">ashishmurmu198@gmail.com</font><br>
       <font color="#00ffcc"><b>System:</b></font> <font color="#ffffff">Arch Linux / Windows 11</font><br>
-      <font color="#00ffcc"><b>Mission:</b></font> <font color="#ffffff">Mastering Web Frontiers</font>
+      <font color="#00ffcc"><b>Mission:</b></font> <font color="#ffffff">Mastering Web & Quantum Frontiers</font>
     </td>
   </tr>
 </table>
