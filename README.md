@@ -70,6 +70,19 @@ This file contains your layout with the hacking GIF restored, a colored Jackal c
 
 ---
 
+### 🪐 About Me / Mission Briefing
+
+> *"Navigating the digital cosmos with clean code, scalable architecture, and pixel-perfect design."*
+
+Hello World! I'm **Ashish Murmu**, a 2nd-year Computer Science & Engineering student and passionate developer from India. Driven by curiosity and a love for futuristic UI/UX, I build immersive web applications, experiment with robust architectures, and explore modern technologies across the cosmic frontier.
+
+- 🔭 **Focus**: Full-Stack Web Development, Modern UI/UX & Interactive Design
+- 💻 **Tech Stack**: JavaScript, React, Python, Java, CSS3/HTML5
+- ⚡ **Philosophy**: Clean Code, Scalable Systems & Cyberpunk Aesthetics
+- 💬 **Ask me about**: Frontend Architecture, Web Design, and Creative Coding
+
+---
+
 ### 🏙️ My 3D Contribution City
 <p align="center">
   <img src="./profile-3d-contrib/profile-night-view.svg?v=3" alt="Ashish's 3D City" width="100%" />
